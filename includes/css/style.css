@@ -1,0 +1,883 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/NexaRegular.eot");
+  src: url("../fonts/NexaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NexaRegular.woff2") format("woff2"),
+    url("../fonts/NexaRegular.woff") format("woff"),
+    url("../fonts/NexaRegular.ttf") format("truetype"),
+    url("../fonts/NexaRegular.svg#NexaRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/NexaLight.eot");
+  src: url("../fonts/NexaLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NexaLight.woff2") format("woff2"),
+    url("../fonts/NexaLight.woff") format("woff"),
+    url("../fonts/NexaLight.ttf") format("truetype"),
+    url("../fonts/NexaLight.svg#NexaLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/NexaBold.eot");
+  src: url("../fonts/NexaBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NexaBold.woff2") format("woff2"),
+    url("../fonts/NexaBold.woff") format("woff"),
+    url("../fonts/NexaBold.ttf") format("truetype"),
+    url("../fonts/NexaBold.svg#NexaBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/Muli-SemiBold.eot");
+  src: url("../fonts/Muli-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Muli-SemiBold.woff2") format("woff2"),
+    url("../fonts/Muli-SemiBold.woff") format("woff"),
+    url("../fonts/Muli-SemiBold.ttf") format("truetype"),
+    url("../fonts/Muli-SemiBold.svg#Muli-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/Muli-Bold.eot");
+  src: url("../fonts/Muli-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Muli-Bold.woff2") format("woff2"),
+    url("../fonts/Muli-Bold.woff") format("woff"),
+    url("../fonts/Muli-Bold.ttf") format("truetype"),
+    url("../fonts/Muli-Bold.svg#Muli-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/Muli.eot");
+  src: url("../fonts/Muli.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Muli.woff2") format("woff2"),
+    url("../fonts/Muli.woff") format("woff"),
+    url("../fonts/Muli.ttf") format("truetype"),
+    url("../fonts/Muli.svg#Muli") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Flaticon.woff2") format("woff2"),
+    url("../fonts/Flaticon.woff") format("woff"),
+    url("../fonts/Flaticon.ttf") format("truetype"),
+    url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url("../fonts/DancingScript-Bold.eot");
+  src: url("../fonts/DancingScript-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DancingScript-Bold.woff2") format("woff2"),
+    url("../fonts/DancingScript-Bold.woff") format("woff"),
+    url("../fonts/DancingScript-Bold.ttf") format("truetype"),
+    url("../fonts/DancingScript-Bold.svg#DancingScript-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  /* margin-left: 20px; */
+  transition: all 0.3s;
+}
+
+.flaticon-facebook-logo:before {
+  content: "\f100";
+}
+
+.flaticon-youtube:before {
+  content: "\f101";
+}
+
+.flaticon-calendar:before {
+  content: "\f102";
+}
+
+.flaticon-maps-and-flags:before {
+  content: "\f103";
+}
+
+.flaticon-list:before {
+  content: "\f104";
+}
+
+.flaticon-clock:before {
+  content: "\f105";
+}
+
+.flaticon-user:before {
+  content: "\f106";
+}
+
+.flaticon-like:before {
+  content: "\f107";
+}
+
+.flaticon-star:before {
+  content: "\f108";
+}
+
+.flaticon-phone-receiver:before {
+  content: "\f109";
+}
+
+.flaticon-mail-black-envelope-symbol:before {
+  content: "\f10a";
+}
+
+.flaticon-email:before {
+  content: "\f10b";
+}
+
+.flaticon-avatar:before {
+  content: "\f10c";
+}
+
+.flaticon-mobile-phone:before {
+  content: "\f10d";
+}
+
+.flaticon-lock:before {
+  content: "\f10e";
+}
+
+.flaticon-down-arrow:before {
+  content: "\f10f";
+}
+
+.flaticon-angle-arrow-down:before {
+  content: "\f110";
+}
+
+.flaticon-gift:before {
+  content: "\f111";
+}
+
+.flaticon-credit-card:before {
+  content: "\f112";
+}
+
+.flaticon-edit:before {
+  content: "\f113";
+}
+
+/* Icons Hover Colors */
+/*.flaticon-facebook-logo:hover,
+.flaticon-facebook-logo:focus {
+  background-color: #3b5999 !important;
+}*/
+
+/* Icons Hover Colors */
+/*.flaticon-facebook-logo:hover::before,
+.flaticon-facebook-logo:focus::before,
+.flaticon-youtube:hover::before,
+.flaticon-youtube:focus::before {
+  color: #fff !important;
+}*/
+
+.flaticon-youtube:hover,
+.flaticon-youtube:focus {
+  background-color: #cd201f !important;
+}
+
+/* =========================================
+    Basic Style CSS Start
+============================================ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Muli";
+  padding-top: 142px;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: normal;
+  /*font-weight: bold;*/
+  font-family: "Nexa";
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 36px;
+  /*font-weight: bold;*/
+  /*line-height: 38px;*/
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 30px;
+  /*font-weight: bold;*/
+  /*line-height: 38px;*/
+  margin-bottom: 40px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+p,
+.p.p1 {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 18px;
+  font-family: "Muli";
+}
+
+.muli {
+  font-family: "Muli" !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+button:focus,
+button {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+/* =========================================
+    Basic Style CSS End
+============================================ */
+/* ==================================
+    Button Style Start
+===================================== */
+
+.btn,
+.login-wrap .btn-group .btn.anchore-btn {
+  font-weight: bold;
+  display: inline-block;
+  /*font-size: 15px;*/
+  font-size: 14px;
+  font-family: "Nexa";
+  background-color: #fbc957;
+  padding: 10px 27px;
+  border-radius: 50px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #652c75;
+}
+
+.btn:hover,
+.btn:focus,
+.btn-reverse {
+  background-color: #422d55;
+  color: #fff;
+}
+
+.btn-reverse:hover {
+  background-color: #fbc957;
+  color: #000;
+}
+
+. .btn.cancle {
+  border: 0 !important;
+  font-weight: 700 !important;
+  border-radius: 50px !important;
+}
+
+.btn.cancle {
+  background-color: #e8e8e8;
+  color: #000;
+}
+
+.btn.cancle:hover,
+.btn.cancle:focus,
+.my-profile.address.new-appointment
+  .address-wrap
+  .form-group
+  .btn
+  .btn.btn-cancel-appointments:hover {
+  background-color: #333;
+  color: #fff !important;
+}
+
+.mw-auto .btn {
+  min-width: auto !important;
+}
+
+.news .owl-stage {
+  margin: 0 auto;
+}
+
+.my-profile .login-wrap a.btn {
+  border-radius: 50px !important;
+}
+
+.purple .yellow-btn .btn {
+  background-color: #fbc957 !important;
+  color: #000 !important;
+}
+
+.purple .yellow-btn .btn:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/* ==================================
+    Button Style Start
+===================================== */
+
+/* ==================================
+    Color Style Start
+===================================== */
+.purple {
+  color: #652c75 !important;
+}
+
+.purple-bg {
+  background-color: #652c75 !important;
+}
+
+.gray {
+  color: #666666 !important;
+}
+
+.gray-bg {
+  background-color: #666666 !important;
+}
+
+.grey-f3f-bg {
+  background-color: #f3f4fa !important;
+}
+
+.white-bg {
+  background-color: #fff !important;
+}
+
+.bg-none {
+  background-color: transparent !important;
+}
+
+.bg-none-after::after,
+.bg-none-before::before {
+  display: none !important;
+}
+
+/* ==================================
+    Color Style End
+===================================== */
+
+/* =========================================
+    Navigation Style CSS Start
+============================================ */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1001;
+  background-color: #fff;
+}
+
+header .top-toolbar {
+  background-color: #652c75;
+  padding: 6px 0px;
+}
+
+header .top-toolbar .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .top-toolbar .common {
+  display: flex;
+  align-items: center;
+}
+
+header .top-toolbar .common li {
+  font-size: 13px;
+  color: #bfb3c3;
+  margin-right: 40px;
+}
+
+header .top-toolbar .common li:last-child {
+  margin-right: 0px;
+}
+
+header .top-toolbar .common li a {
+  font-size: 13px;
+  color: #bfb3c3;
+  transition: all 0.3s;
+  letter-spacing: 0.3px;
+}
+
+header .top-toolbar .common li a:hover,
+header .top-toolbar .common li a:focus {
+  color: #fff;
+  /*transform: rotate(360deg);*/
+}
+
+header .top-toolbar .info {
+}
+
+header .top-toolbar .info li {
+}
+
+header .top-toolbar .info li a {
+}
+
+header .top-toolbar .social {
+}
+
+header .top-toolbar .social li {
+  margin-right: 6px;
+}
+
+header .top-toolbar .social li:first-child {
+  margin-right: 25px;
+}
+
+header .top-toolbar .social li a {
+  background-color: #bfb3c3;
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+header .top-toolbar .social li a img {
+  width: 100%;
+}
+
+header .top-toolbar .common li a.flaticon-facebook-logo,
+header .top-toolbar .common li a.flaticon-youtube,
+footer a.flaticon-facebook-logo,
+footer a.flaticon-youtube {
+  background-color: #bfb3c3;
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .top-toolbar .social li a::before,
+footer .social li a::before {
+  color: #652c75;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+
+header .top-toolbar .social li a:hover,
+header .top-toolbar .social li a:focus {
+  background-color: #fff;
+}
+
+header .top-toolbar .social li a:hover::before,
+header .top-toolbar .social li a:focus::before {
+  color: #652c75;
+}
+
+header .navigation {
+  padding: 9px 0px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  max-width: 102px;
+  /*margin-left: 17px;*/
+  margin-left: 0px;
+}
+
+header .logo a {
+  display: inline-block;
+}
+
+header .logo a img {
+  width: 100%;
+}
+
+header nav {
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+header nav ul li:last-child {
+  margin-right: 0px;
+}
+
+header nav ul li a {
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  transition: all 0.3s;
+  padding: 33px 0 35px;
+  display: inline-block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active,
+header nav ul li a:focus,
+.light-purple {
+  color: #c5416e;
+}
+
+header nav ul li.sign-log {
+  margin-right: 15px;
+}
+
+header nav ul li.sign-log a.btn {
+  font-size: 13px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+}
+
+header nav ul li.sign-log:last-child {
+  margin-right: 0;
+}
+
+header nav ul li.sign-log a {
+  font-weight: bold;
+  display: inline-block;
+  background-color: #fbc957;
+  padding: 13px 27px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+header nav ul li.sub-menu ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: calc(100% + 9px);
+  min-width: 184px;
+  width: auto;
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.25);
+  z-index: 0;
+  visibility: hidden;
+  opacity: 0;
+  padding-bottom: 4px;
+  transition: all 0.3s;
+  background-color: #fff;
+}
+
+header nav ul li.sub-menu ul::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  z-index: -13;
+  display: block;
+  border-color: #f000 #00f0 #c5416e #ff00;
+  border-style: solid;
+  border-width: 5px;
+}
+
+header nav ul li.sub-menu ul::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #c5416e;
+  transition: all 0.6s;
+}
+
+header nav ul li.sub-menu:focus ul::after,
+header nav ul li.sub-menu:hover ul::after {
+  width: 100%;
+}
+
+header nav ul li.sub-menu:focus ul,
+header nav ul li.sub-menu:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+header nav ul li.sub-menu ul li {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+header nav ul li.sub-menu ul li a {
+  padding: 11px 15px 7px;
+  border-bottom: 1px solid #f7f7f7;
+  display: block;
+}
+
+header nav ul li.sub-menu ul li:last-child a {
+  border-bottom: 0;
+}
+
+header nav ul li.sub-menu > a::after {
+  content: "\f110";
+  font-family: Flaticon;
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+#nav-icon {
+  width: 25px;
+  height: 20px;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  right: 0;
+  z-index: 999;
+  top: 0px;
+  float: right;
+  position: relative;
+  display: none;
+}
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #652c75;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#nav-icon span:nth-child(1) {
+  top: 0;
+}
+
+#nav-icon span:nth-child(2),
+#nav-icon span:nth-child(3) {
+  top: 8px;
+}
+
+#nav-icon span:nth-child(4) {
+  top: 16px;
+}
+
+#nav-icon.active span:nth-child(1) {
+  top: 18px;
+  width: 0;
+  left: 50%;
+}
+
+#nav-icon.active span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon.active span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon.active span:nth-child(4) {
+  top: 18px;
+  width: 0;
+  left: 50%;
+}
+
+header .top-toolbar .info li a i {
+  display: none;
+}
+
+header .top-toolbar .info li a i::before {
+  font-size: 18px;
+}
+
+/* =========================================
+    Navigation Style CSS End
+============================================ */
+
+/* =========================================
+    Footer Style CSS Start
+============================================ */
+footer {
+  /*background-color: #222222;*/
+  color: #fff;
+  padding: 0px 0px 0px;
+}
+
+footer h6 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-family: "Nexa";
+  font-weight: 400;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer .logo a {
+}
+
+footer .logo a img {
+  max-width: 100px;
+}
+
+footer .wrap {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 30px 0px 45px;
+}
+
+footer .wrap h6 {
+  font-family: "Nexa";
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #c6c6c6;
+}
+
+footer .bottom {
+  background-color: #fff;
+  text-align: center;
+  /*padding: 22px 0px;*/
+  /*margin-top: 45px;*/
+}
+
+footer .bottom p {
+  margin-bottom: 0px;
+  color: #000000;
+}
+
+/* =========================================
+    Footer Style CSS End
+============================================ */
+
+/* =========================================
+    About Style CSS End
+============================================ */
+
+section.main-banner.submit-review {
+    padding: 61px 0;
+}
+
+.about-section .container{
+  background-color: rgb(240 240 240);
+}
+
+.about-section #my-story-section{
+  text-align: center;
+  text-align: center;
+  padding-top: 117px;
+}
+
+.about-section h1.my-story-title {
+    color: #ae3b71;
+    font-size: 49px;
+}
+
+.about-section #my-story-section p{
+    font-size: 14px;
+    margin: 27px 40px;
+}

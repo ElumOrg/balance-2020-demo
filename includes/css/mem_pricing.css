@@ -1,0 +1,89 @@
+.cl-list .number-text {
+  font-size: 44px;
+  font-weight: 900;
+  width: 75px;
+  height: 75px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5416e;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  font-family: 'Nexa';
+  color: #fff;
+  background-color: rgba(101, 44, 117, 0.65);
+  border-radius: 3px;
+}
+.cl-list .text-desc {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.cl-list li {
+  display: flex;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+  align-items: center;
+}
+.pricing-plans-sec section{
+  text-align:center;
+  }
+.pricing-plans-sec section span img {
+  width: 100px
+}
+.pricing-plans-sec h3 {
+  font-size: 20px;
+  color:#652c75;
+}
+
+.price_banner.inner {
+       padding: 200px 0px;
+}
+.price_banner  {
+  background-image: url('./assets/frontend/images/pricing-banner-gradient.jpg');
+}
+.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ 
+.price_banner .content h2{
+
+  }
+.price_banner .content h2 {
+   font-size: 34px;
+   font-weight: bold;
+   max-width: 667px;
+}
+.price_banner .content {
+    color: #652c75;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.online-package-slider p {
+  font-size: 26px;
+}
+.online-package-slider p span {
+  color: #652c75;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 26px;
+}
+
+.online-package-slider p span:hover {
+  color: #fbc957;
+}
+.online-package-slider {
+    padding: 0px 0px 0px!important;
+}
+
+.online-package-slider .swiper-container {
+    padding: 20px 0 24px!important;
+    overflow: initial;
+}

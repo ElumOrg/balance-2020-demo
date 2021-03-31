@@ -1,0 +1,1233 @@
+
+/* =========================================
+    MediaQuery CSS Start
+============================================ */
+@media (min-width: 992px){
+  .side-menu-list ul {
+    padding: 0 0px 0px 9px !important;
+    position: static !important;
+    float: none !important;
+    border: 0 !important;
+    transform: translate(0) !important;
+  }
+}
+
+@media(max-width: 1400px) {
+  .lesson .list-wrap ul:nth-child(1) {
+    max-width: 860px;
+  }
+
+  .lesson .list-wrap ul:nth-child(2) {
+    max-width: 1065px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    /* max-width: calc(100% - 30px); */
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  header nav ul li {
+    margin-right: 25px;
+  }
+  .book-session-modal .pending-accordion .login-wrap.signup {
+    padding: 0 10px;
+  }
+  /* .box.package-wrap .text-box ul.common.two li {
+    margin-right: 20px;
+  } */
+  .box.package-wrap .text-box ul.common.two li:last-child {
+    margin-right: 0px;
+  }
+  .box.package-wrap .text-box ul.common.two li::after {
+    right: 0;
+  }
+}
+
+@media(max-width: 1100px) {
+  .choose .box {
+    padding: 30px 20px 30px;
+  }
+
+  .choose .box h6 {
+    font-size: 22px;
+  }
+
+  .yoga.mobile-screen {
+    padding-top: 70px;
+  }
+
+  footer .wrap {
+    max-width: 270px;
+  }
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box p .date {
+    display: block;
+  }
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box p {
+    position: relative;
+  } 
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box p .copy-icon {
+    position: absolute;
+    bottom: 5px;
+    right: -30px;
+  }
+}
+
+@media(max-width: 1024px) {
+  header nav ul li.sign-log a {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 37px;
+  }
+
+  h4 {
+    font-size: 27px;
+  }
+  .list-wrapper .list-box .img-wrap {
+    width: 190px;
+    height: 190px;
+  }
+  #home-banner.profile {
+    padding: 65px 0;
+  }
+  .list-wrapper.profile .list-box .text-wrap h6 {
+    line-height: 32px;
+  }
+  .list-wrapper.profile .profile-details-text .book-wrap {
+    margin: 20px 0;
+  }
+  .lesson.package{
+    overflow: hidden;
+  }
+  .lesson.package::before {
+    right: -80px;
+    background-size: 40%;
+  }
+  .pay-wrapper .process-to-pay {
+    padding: 45px 15px 35px;
+  }
+  .pay-wrapper .pay-wrap .extra-part p {
+    font-size: 17px;
+  }
+  .pay-wrapper .process-to-pay .extra-part h6 {
+    font-size: 20px;
+  }
+  header nav ul li.sub-menu ul{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    display: none;
+  }
+  header nav ul li.sub-menu ul.active {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+
+  .menu-overlay-pad  {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: all .5s;
+    background-color:red;
+  }
+  .menu-overlay-pad.active {
+    display: block;
+  }
+  .side-menu-list ul li a {
+    padding: 8px 20px;
+  }
+  .side-menu-list ul {
+    padding: 0 0px;
+  }
+  .my-profile .login-wrap {
+    padding: 45px 50px;
+  }
+  .side-menu-list ul {
+    padding: 0 5px !important;
+  }
+  .side-menu-list {
+    padding: 30px 15px 45px;
+  }
+  .side-menu-list ul li a {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .book-session-modal .pending-accordion .login-wrap.signup {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){  
+  /* .my-profile .gift-certi .login-wrap .text-wrap {
+    position: static;
+    min-height: auto;
+    height: 100%;
+  } */
+  /* .my-profile .gift-certi .login-wrap .box {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  } */
+  .my-profile .side-wrap.gift-certi .row > div {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 991px) {
+  body {
+    padding-top: 103px;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    max-width: 350px;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    padding: 100px 60px 0;
+    transition: all .3s;
+    z-index: 10;
+  }
+
+  header nav.active {
+    right: 0;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    width: 100%;
+    margin: 0;
+  }
+
+  header nav ul li.sub-menu ul {
+    position: relative;
+     visibility: visible;
+    top: 0;
+    opacity: 0;
+     height: auto;
+    min-height: auto;
+    min-width: 100%;
+    box-shadow: none;
+    height: 0;
+    transition: all .5s;
+    padding: 0;
+    overflow: hidden;
+    /* visibility: visible;
+    display: none; */
+  }
+  header nav ul li.sub-menu > a::after {
+    float: right ;
+  }
+
+  header nav ul li.sub-menu ul:focus,
+  header nav ul li.sub-menu ul:hover,
+  header nav ul li.sub-menu ul.active {
+    height: auto;
+    overflow: auto;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #nav-icon {
+    display: block;
+  }
+
+  header .logo {
+    max-width: 60px;
+  }
+
+  header nav ul li a {
+    display: block;
+    padding: 5px 0;
+  }
+  header nav ul li.sub-menu ul li a {
+   padding: 11px 0 7px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .choose .row,
+  .news .row {
+    justify-content: center;
+  }
+
+  .choose .box {
+    margin-bottom: 30px;
+  }
+
+  .choose .row>div:last-child .box {
+    margin-bottom: 0px;
+  }
+
+  .lesson {
+    padding: 70px 0px;
+  }
+
+  .yoga .text-wrap {
+    max-width: 570px;
+    text-align: center;
+    margin: 0 auto 50px;
+  }
+
+  .yoga h4 br {
+    display: none;
+  }
+
+  .yoga.mobile-screen .text-wrap {
+    text-align: left;
+  }
+
+  .news {
+    padding: 70px 0px 40px;
+  }
+
+  .news .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .yoga.mobile-screen {
+    background-image: none;
+  }
+
+  .yoga h4 {
+    margin-bottom: 15px;
+  }
+
+  .choose,
+  .yoga,
+  .lesson.package,
+  #home-banner,
+  .lesson {
+    padding: 50px 0px;
+  }
+
+  .news {
+    padding: 50px 0px 20px;
+  }
+
+  .yoga.mobile-screen {
+    padding-top: 70px;
+  }
+  .lesson .img-wrap {
+    margin-top: 50px;
+  }
+  footer {
+    padding-top: 40px;
+  }
+
+  footer .bottom {
+    margin-top: 40px;
+  }
+  .lesson .img-wrap + a {
+    font-size: 18px;
+  }
+  .lesson {
+    padding-bottom: 120px;
+  }
+  .lesson .owl-nav {
+    bottom: -80px;
+  }
+  .list-wrapper .list-box .text-wrap {
+    align-items: center;
+  }
+  .list-wrapper .list-box .img-wrap {
+      margin-bottom: 20px;
+    }
+    .list-wrapper .book-wrap .btn {
+    display: inline-block !important;
+  }
+  .list-wrapper .list-box .text-wrap {
+    margin-bottom: 20px;
+  }
+  .list-wrapper .list-box .text-wrap .distance-box {
+    width: 100%;
+    flex-direction: column;
+  }
+  .list-wrapper .list-box {
+    padding: 25px 20px;
+    max-width: 330px;
+    margin: 0 15px 30px;
+  }
+  .list-wrapper .list-box .text-wrap p {
+    text-align: center;
+  }
+  .list-wrapper .list-box .text-wrap .distance-box p.distance {
+    margin-top: 5px;
+  }
+  .list-wrapper .list-box:last-child {
+    margin: 0 auto 30px;
+  }
+  .list-wrapper {
+    padding: 45px 0px 15px;
+  }
+  .list-wrapper.profile .list-box .text-wrap h6,
+  .list-wrapper.profile .list-box .text-wrap {
+    text-align: center;
+  }
+  .list-wrapper.profile .list-box {
+    max-width: 768px;
+  }
+  .list-wrapper.profile .list-box .text-wrap .distance-box {
+    flex-direction: row;
+    justify-content: center !important;
+  }
+  .list-wrapper.profile .list-box {
+    margin-bottom: 0 !important;
+    padding: 0;
+  }
+  .list-wrapper.profile .list-box .text-wrap{
+    margin-bottom: 0px;
+  }
+  .list-wrapper.profile {
+    padding: 40px 0;
+  }
+  .list-wrapper.profile .list-box .img-wrap {
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+  .list-wrapper.profile .list-box .text-wrap ul {
+    justify-content: start !important;
+  }
+  .list-wrapper.profile .list-box .text-wrap ul::before {
+    right: auto;
+  }
+  .list-wrapper.profile .list-box .text-wrap .distance-box p.distance {
+    text-align: left;
+  }
+  .list-wrapper.profile  .text-wrap.profile-details-text{
+    margin-top: 30px;
+  }
+  .pay-wrapper .process-to-pay {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .pay-wrapper {
+    padding: 40px 0px;
+  }
+  header nav ul li.sub-menu:focus ul::after, header nav ul li.sub-menu:hover ul::after {
+  display: none;
+  }
+  header nav ul li.sub-menu.active ul.active::after, header nav ul li.sub-menu.active ul.active::after {
+    display: block;
+    width: 100%;
+  }
+
+  .menu-overlay-pad  {
+    display: none;
+  }
+
+  .menu-overlay  {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: all .5s;
+  }
+
+  .menu-overlay.active {
+    display: block;
+  }
+  .book-session-modal.address-modal .modal-content {
+    padding: 40px 15px 15px;
+    margin: 0 auto;
+  }
+  .my-profile-menu{
+    margin-bottom: 0;
+  }
+  .side-menu-list ul {
+    padding: 0 0px;
+    left: 0 !important;
+    transform: translate(0) !important;
+    top: 33px !important;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.10);
+  }
+  .list-wrapper.my-profile .list-box {
+    margin: 0 auto 20px;
+    max-width: 100%;
+  }
+  .side-menu-list {
+    margin-bottom: 20px;
+  }
+  .book-session-modal .list-wrapper.profile .list-box .text-wrap ul::before {
+    right: 0;
+  }
+  .side-menu-list ul li:last-child a {
+    border-bottom: 0;
+  }
+  .side-menu-list ul {
+    padding: 0 0px !important;
+  }
+  .side-menu-list ul li .sub-menu li a {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .side-menu-list ul li .sub-menu {
+    box-shadow: none;
+  }
+  .side-menu-list ul li .sub-menu li a span {
+    display: none;
+  }
+  .side-menu-list ul li .sub-menu li a:hover,
+  .side-menu-list ul li .sub-menu li a:focus{
+        color: #fff;
+    background-color: #333333;
+  }  
+  .list-wrapper .list-box.gift-certi-detail .text-box {
+    margin-top: 20px;
+  }
+  .my-profile .gift-certi .login-wrap {
+    height: auto;
+  }
+  .pending-accordion .card-body .row.before-none > div {
+    margin: 0;
+  }
+  .advance-yoga .right .details-box .text-wrap .distance-box {
+    flex-direction: row;
+  }
+  .list-wrapper.profile.bg-transparent .img-box{
+    max-width: 400px;
+    margin: 30px auto 0;
+  }
+  .list-wrapper.profile.bg-transparent .img-box img{
+    width: 100%;
+  }
+  .list-wrapper.profile.bg-transparent .text-box {
+    max-width: 400px;
+    margin: 30px auto 0;
+  }
+}
+
+@media(max-width: 767px) {
+  .login-wrap.signup {
+    max-width: calc(100% - 30px);
+  }
+
+  header .top-toolbar .common li {
+    margin-right: 20px;
+  }
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+  .lesson .list-wrap ul li .img-wrap {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lesson .list-wrap ul li .img-wrap img {
+    width: 80%;
+  }
+  .yoga.mobile-screen .text-wrap {
+    text-align: center;
+  }
+  .btn-group {
+    justify-content: center;
+  }
+  /* .yoga.mobile-screen .img-wrap {
+    margin-bottom: 50px;
+  } */
+  #home-banner .text-wrap {
+    text-align: center;
+    max-width: 576px;
+    margin: auto;
+  }
+  #home-banner .login-wrap.signup {
+    margin: 50px auto 0;
+  }
+  .list-wrapper .list-box {
+    padding: 25px 15px;
+    max-width: calc(50% - 20px);
+    margin: 0 10px 15px;
+  }
+  #home-banner.filter {
+    padding: 40px 0px 30px;
+    background-position: -100px bottom;
+    background-size: 50%;
+  }
+  .list-wrapper.gallery {
+    padding: 50px 0px 30px;
+  }
+  .pay-wrapper .pay-wrap {
+    padding: 20px 15px;
+  }
+  .login-wrap.refer-friends .text-wrap {
+    margin-bottom: 35px;
+  }
+  .side-menu-list ul li .sub-menu li.active a, 
+  .side-menu-list ul li .sub-menu li a{
+    font-size: 14px;
+    color: #000;
+  }
+  .side-menu-list ul li .sub-menu li a:hover, 
+  .side-menu-list ul li .sub-menu li a:focus {
+    color: #fff;
+  }
+  .advance-yoga .right .details-box {
+    min-width: auto;
+    max-width: 100%;
+    width: auto;
+  }
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box p .date {
+    display: inline-block;
+  }
+}
+
+@media(max-width: 670px) {
+  header .top-toolbar .info li a i {
+    display: block;
+  }
+
+  header .top-toolbar .info li a {
+    font-size: 0;
+  }
+
+  header .top-toolbar .common li {
+    display: flex;
+  }
+  body {
+    padding-top: 108px;
+  }
+}
+
+@media(max-width: 575px) {
+ /*  h4 {
+    font-size: 26px;
+  } */
+
+  .login-wrap p {
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+
+  .form-group {
+    height: 45px;
+  }
+
+  .icon-after::after {
+    font-size: 22px;
+  }
+
+  .login-wrap,
+  .login-wrap.signup {
+    max-width: calc(100% - 30px);
+    padding: 35px 30px 45px;
+  }
+
+  .login-wrap .form-group .btn {
+    /* height: 100%; */
+    line-height: 45px;
+    height: 45px;
+    padding: 0 0;
+  }
+
+  .login-wrap p.login-with {
+    margin: 0;
+  }
+
+  .login-section {
+    padding: 40px 0;
+  }
+  .img-wrap {
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  #home-banner .text-wrap p {
+    font-size: 16px;
+  }
+  .yoga .text-wrap {
+    margin: 0 auto 30px;
+  }
+  .choose, .yoga, .lesson.package, #home-banner, .lesson {
+    padding: 40px 0px;
+  }
+  .yoga.mobile-screen {
+    padding: 30px 0px 0;
+  }
+  .lesson {
+    padding: 30px 0px 110px;
+  }
+  .news {
+    padding: 40px 0px 10px;
+  }
+  .lesson .owl-nav {
+    bottom: -70px;
+  }
+  .news h3 {
+    margin-bottom: 20px;
+  }
+  .yoga.mobile-screen .text-wrap > img {
+    margin-bottom: 20px;
+    max-width: 120px;
+  }
+  .news .wrap .text-wrap {
+    padding: 25px 15px 30px;
+  }
+
+  footer ul li {
+    text-align: center;
+  }
+  footer .social {
+    justify-content: center;
+  }
+  footer .wrap h6 {
+    text-align: center;
+  }
+  footer .menu{
+    margin-bottom: 30px;
+  }
+  footer h6 + p{
+    margin-bottom: 30px;
+  }
+  .btn {
+    padding: 10px 18px;
+  }
+  footer .menu {
+    flex-direction: column;
+  }
+  footer .menu ul:last-child{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .choose .box p{
+    margin-bottom: 0px;
+  }
+  .list-wrapper .list-box {
+    max-width: 360px;
+    margin: 0 0px 30px;
+  }
+  .list-wrapper .list-box .text-wrap {
+    margin-bottom: 10px;
+  }
+  .list-wrapper {
+    padding: 40px 0px 15px;
+  }
+  #home-banner.filter .login-wrap.signup h4 {
+    font-size: 24px;
+  }
+
+  .list-wrapper.gallery {
+    padding: 40px 0px 20px;
+  }
+  .list-wrapper.profile .list-box .img-wrap {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .list-wrapper.profile .list-box .text-wrap ul {
+    justify-content: center !important;
+  }
+  .list-wrapper.profile .list-box .text-wrap ul::before {
+    right: 0;
+  }
+  .list-wrapper.profile .list-box .text-wrap .distance-box p.distance {
+    text-align: center;
+  }
+  .list-wrapper.profile .text-wrap.profile-details-text {
+    margin-top: 10px;
+  }
+  .list-wrapper.profile {
+    padding: 20px 0 40px;
+  }
+  .list-wrapper.gallery h3 {
+    margin-bottom: 30px;
+  }
+  #home-banner.profile {
+    padding: 35px 0;
+  }
+  .pay-wrap.about-details .details .text .mail-phone p {
+    margin: 0 0 5px;
+  }
+  .pay-wrap.about-details .details .text .mail-phone p:last-child {
+    margin: 0 0 0px;
+  }
+  #accordion .card-header button span::before {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  #accordion .card-header button {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+    #accordion button:hover[aria-expanded="false"]::after,
+    #accordion button:focus[aria-expanded="false"]::after,
+    #accordion button[aria-expanded="false"]::after {
+    font-size: 13px;
+  }
+  .pay-banner {
+    padding: 25px 0px;
+  }
+  .pay-wrapper {
+    padding: 30px 0px;
+  }
+  #accordion .card-header button span.flaticon-credit-card::before {
+    font-size: 24px;
+  }
+  .book-session-modal.address-modal .login-wrap.signup.shadow-none .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .book-session-modal.address-modal .modal-content {
+    margin: 0 auto;
+  }
+  .my-profile .login-wrap.signup {
+    padding: 50px 20px 25px;
+  }
+  .my-profile.address.list-wrapper .login-wrap.signup{
+    padding: 30px 20px 30px;
+  }
+  .book-session-modal.address-modal .btn-group > div .btn {
+    padding: 10px 20px;
+  }
+  .book-sess .time-circle .time {
+    font-size: 50px;
+  }
+  .book-sess .time-circle p {
+    font-size: 16px;
+  }
+  .book-sess .time-circle {
+    width: 245px;
+    height: 245px;
+  }
+  .circle_bg1 {
+    height: 320px;
+    width: 320px;
+  }
+  .box.package-wrap .text-box ul.common.two li::after {
+    right: 0;
+  }
+  
+  .choose, .rec-teacher{
+    padding: 50px 0px;
+  }
+  .teacher-approval.list-wrapper .advance-yoga {
+    flex-direction: column;
+  }
+  .teacher-approval.list-wrapper .advance-yoga .right .btn,
+  .book-session-modal .pending-accordion .login-wrap.signup .btn {
+    padding: 0 30px;
+  }
+  .pending-accordion .card-body{
+    padding: 0;
+  }
+  .pending-accordion .card-body .login-wrap.book-session-modal.signup{
+    padding: 20px 15px;
+  }
+  .teacher-approval.list-wrapper .advance-yoga .left {
+    margin-bottom: 15px;
+  }
+  .credit-amount {
+    padding: 10px 15px;
+  } 
+  .advance-yoga .right .details-box {
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 500px) {
+  /* .my-profile .gift-certi .login-wrap .text-wrap .text-box {
+    width: 100%;
+    flex-direction: column;
+  } */
+  /* .my-profile .gift-certi .login-wrap .text-wrap .text-box p {
+    text-align: center;
+  } */
+
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box p,
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box:last-child p {
+    margin: 0 30px 10px 0;
+  }
+ /*  .my-profile .gift-certi .login-wrap .text-wrap .text-box {
+    flex-direction: column;
+  } */
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .my-profile .gift-certi .login-wrap .text-wrap {
+    position: static;
+  }
+  .advance-yoga .right .details-box {
+    /* flex-wrap: wrap; */
+  }
+  .teacher-approval.list-wrapper .advance-yoga .right {
+    margin-bottom: 0;
+  }  
+  .advance-yoga .right .details-box {
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .checkbox-wrapper .check-wrap {
+      margin: 0 10px 20px 10px;
+  }
+}
+
+@media(max-width: 400px) {
+  .login-wrap a.btn {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .icon-after::after {
+    font-size: 20px;
+    left: 10px;
+  }
+
+  .form-control {
+    padding-left: 40px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .login-wrap,
+  .login-wrap.signup {
+    padding: 30px 20px 30px;
+  }
+
+  .checkbox-wrap,
+  .login-wrap a {
+    font-size: 12px;
+  }
+
+  .styled-checkbox+label::before {
+    width: 15px;
+    height: 15px;
+  }
+
+  .login-wrap p.login-with {
+    font-size: 12px;
+    display: block;
+  }
+
+  .login-wrap p.login-with::before,
+  .login-wrap p.login-with::after {
+    width: 30%;
+    left: 0px;
+  }
+
+  .login-wrap p.login-with::after {
+    right: 0px;
+    left: auto;
+  }
+
+  header nav {
+    right: -100%;
+    max-width: 100%;
+  }
+  footer ul li {
+    text-align: center;
+  }
+  footer .social {
+    justify-content: center;
+  }
+  footer .wrap h6 {
+    text-align: center;
+  }
+  footer .menu{
+    margin-bottom: 30px;
+  }
+  footer h6 + p {
+    margin-bottom: 30px;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .lesson h3 {
+    margin-bottom: 18px;
+  }
+  .news h3 {
+    margin-bottom: 10px;
+  }
+  .yoga .text-wrap {
+    margin: 0 auto 10px;
+  }
+  #home-banner .text-wrap h1 {
+    margin-bottom: 0;
+  }
+  .bold-para {
+    font-size: 16px;
+  }
+  .choose h4 {
+    line-height: 36px;
+  }
+  .choose .row {
+    margin-top: 0;
+  }
+  .choose .box h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #home-banner .login-wrap.signup {
+    padding: 25px 15px 25px;
+  }
+  header .top-toolbar .common li {
+    margin-right: 10px;
+  }
+  .lesson p span {
+    font-size: 18px;
+  }
+  .lesson p.georgia {
+    font-size: 15px;
+  }
+  .lesson .img-wrap {
+    margin-top: 20px;
+  }
+  .list-wrapper.gallery .row .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .list-wrapper.profile .list-box .img-wrap {
+    margin-bottom: 10px;
+  }
+  .book-session-modal .list-wrapper.profile .list-box .img-wrap + .text-wrap h6.name {
+    font-size: 18px;
+  }
+  .list-wrapper .list-box .text-wrap h6 {
+    font-size: 19px;
+  }
+  .book-session-modal .login-wrap.signup {
+    padding: 20px 15px;
+  }
+  .pay-wrapper .pay-wrap .details {
+    flex-direction: column;
+  }
+  .pay-wrapper .pay-wrap .details .time-wrap{
+    margin-bottom: 10px;
+  }
+  .pay-wrapper .pay-wrap .details .time-wrap + .text {
+    text-align: center;
+  }
+  .pay-wrapper .pay-wrap .extra-part p {
+    font-size: 15px;
+  }
+  .pay-wrapper .pay-wrap .extra-part .form-control {
+    max-width: 90px;
+  }
+  .book-session-modal label {
+    font-size: 14px;
+  }
+  .book-session-modal.address-modal label small {
+    font-size: 12px;
+  }
+  .my-profile .login-wrap .form-group .form-control {
+    padding: 0px 8px 0 8px;
+    font-size: 14px;
+  }
+  .my-profile .login-wrap .form-group select.form-control{
+    padding-right: 30px;
+  }
+  .side-menu-list {
+    padding: 20px 25px 25px;
+  }
+  .my-profile .address-wrap h6::before {
+    left: -30px;
+    width: 20px;
+    height: 20px;
+  }
+  .my-profile .address-wrap {
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  .my-profile .flaticon-edit::before {
+    font-size: 23px;
+  }
+  .my-profile.address .login-wrap .row .btn {
+    min-width: 100%;
+  }
+  .login-wrap.refer-friends .btn {
+    min-width: 100%;
+  }
+
+  .btn {
+    white-space: normal;
+    font-size: 14px;
+  }
+
+  .login-wrap .btn-group {
+    flex-direction: column;
+  }
+  .btn-group > div{
+    margin: 0;
+  }
+  /* .my-profile .gift-certi .login-wrap .text-wrap .text-box p{
+    text-align: center;
+  } */
+  .my-profile .gift-certi .login-wrap .text-wrap .text-box p .date {
+    display: inline-block;
+    margin-top: 6px;
+  }
+  .coupons-wrap .coupons-box .logo-text-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .coupons-wrap .coupons-box .logo-text-wrap .cupons-logo {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .coupons-wrap .coupons-box .logo-text-wrap .text {
+    text-align: center;
+  }
+  .coupons-wrap .coupons-box p{
+    text-align: center;
+  }
+  .rec-teacher h3 {
+    margin-bottom: 10px;
+  }
+  .rec-teacher .wrap {
+    margin-bottom: 30px;
+  }
+  .rec-teacher {
+    padding: 50px 0px;
+  }
+  .box.package-wrap .text-box ul.common.two {
+    flex-direction: column;
+  }
+  .box.package-wrap .text-box ul.common.two li::after{
+    display: none;
+  }
+  .box.package-wrap h6 {
+    font-size: 19px;
+  }
+  .radio-group div label {
+    font-size: 13px;
+  }
+  .btn-group > div .btn{
+    margin-bottom: 20px;
+  }
+  .teacher-approval.list-wrapper .advance-yoga .right .btn, .book-session-modal .pending-accordion .login-wrap.signup .btn {
+    padding: 0 30px;
+    min-width: auto;
+  }
+  .advance-yoga .right .distance-box .points {
+    margin-top: 10px;
+  }
+  .credit-amount ul {
+    flex-direction: column;
+  }
+  .credit-amount ul li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .credit-amount {
+    width: 100%;
+    text-align: center;
+  }
+  .credit-amount ul li:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .credit-amount ul li::before {
+    top: auto;
+    transform: translateY(0);
+    width: 100%;
+    height: 1px;
+    right: auto;
+    bottom: 0;
+    left: 0;
+  }
+  .box.package-wrap .text-box ul.common.two li {
+    padding-left: 0px;
+  }
+  .my-profile .address-wrap h6 img {
+    left: -35px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* =========================================
+    MediaQuery CSS End
+============================================ */
