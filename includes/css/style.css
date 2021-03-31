@@ -321,13 +321,13 @@ button {
 .login-wrap .btn-group .btn.anchore-btn {
   font-weight: bold;
   display: inline-block;
-  /*font-size: 15px;*/
+  /* font-size: 15px; */
   font-size: 14px;
   font-family: "Nexa";
-  background-color: #fbc957;
+  background-color: #8c3474;
   padding: 10px 27px;
-  border-radius: 50px;
-  color: #000;
+  /* border-radius: 50px; */
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s;
@@ -335,14 +335,16 @@ button {
 
 .btn:hover,
 .btn:focus {
-  background-color: #652c75;
+  background-color: #fff;
+  border: 1px solid #8c3474;
+  color:#000;
 }
 
 .btn:hover,
 .btn:focus,
 .btn-reverse {
-  background-color: #422d55;
-  color: #fff;
+  /*background-color: #422d55;*/
+  /*color: #fff;*/
 }
 
 .btn-reverse:hover {
@@ -855,7 +857,7 @@ footer .bottom p {
 ============================================ */
 
 /* =========================================
-    About Style CSS End
+    About Style CSS start
 ============================================ */
 
 section.main-banner.submit-review {
@@ -880,4 +882,100 @@ section.main-banner.submit-review {
 .about-section #my-story-section p{
     font-size: 14px;
     margin: 27px 40px;
+}
+
+/* =========================================
+    About Style CSS End
+============================================ */
+
+/* =========================================
+    Contact Style CSS Start
+============================================ */
+.contact-section #contact-first-part {
+    background-color: #d0d2d3;
+}
+
+.contact-section #contact-form-section{
+      padding: 64px 86px;
+    background-color: rgb(240 240 240);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+.home-banner{
+    background-image: url(./../images/home-banner.png);
+    background-size: cover;
+        height: 500px;
+    width: 100%;
+    background-position: center;
+    overflow: hidden;
+}
+
+.yoga {
+    padding: 60px 0px 0px;
+}
+
+.our_work_section {
+  background-color: rgb(174 59 113);
+}
+
+.our_work_section .img_wrap {
+}
+
+
+.our_work_section .text_wrap h2 {
+  /*border-right: 3px solid #ffffff4f;*/
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 50px;
+  margin-right: 50px;
+  text-align: right;
+  font-size: 44px;
+  /*width: 50%;*/
+  padding: 56px;
+}
+
+.our_work_section .text_wrap p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.our_work_section .text_wrap {
+  max-width: 100%;
+  margin: 0 80px;
+  text-align: center;
+  /*display: flex;*/
+  align-items: center;
+    padding: 0px 101px;
+}
+
+.our_work_section .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.our_work_section .img_wrap {
+  background-image: url(./../images/home-banner-2.png);
+  background-size: cover;
+  height: 306px;
+  width: 100%;
+  background-position: center;
+  overflow: hidden;
 }

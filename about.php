@@ -1,7 +1,7 @@
 <?php 
   include('layout/header.php');
 ?>
-
+<title>About Mes</title>
 <section class="main-banner about-section">
 	<div class="container">
 		<div class="row">

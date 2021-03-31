@@ -29,39 +29,29 @@
       </noscript>
       <!-- End Facebook Pixel Code -->
 
-      <link rel="icon" href="http://localhost/balance-2020/assets/frontend/images/favicon.ico">
-      <link href="http://localhost/balance-2020/assets/frontend/images/favicon.ico"/>
+      <link rel="icon" href="includes/images/favicon.ico">
+      <link href="includes/images/favicon.ico"/>
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/bootstrap.min.css">
+      <link rel="stylesheet" href="includes/css/bootstrap.min.css">
       <!-- Owlcarousel css -->
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/owlcarousel/owlcarousel.min.css">
+      <link rel="stylesheet" href="includes/owlcarousel/owlcarousel.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
       <!-- fancybox css -->
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/fancybox/fancybox.min.css">
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/bootstrap-datetimepicker.min.css">
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/datepicker3.css">
+      <link rel="stylesheet" href="includes/fancybox/fancybox.min.css">
+      <link rel="stylesheet" href="includes/css/bootstrap-datetimepicker.min.css">
+      <link rel="stylesheet" href="includes/css/datepicker3.css">
             <!-- Custom CSS -->
-       <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/gallery.css">
+       <link rel="stylesheet" href="includes/css/gallery.css">
       <link rel="stylesheet" href="includes/css/style.css">
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/custom.css">
-      <!-- <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/style_120819_without_new_changes.css"> -->
+      <link rel="stylesheet" href="includes/css/custom.css">
+      <!-- <link rel="stylesheet" href="includes/css/style_120819_without_new_changes.css"> -->
 
       <!-- Mediaquery -->
-      <link rel="stylesheet" href="http://localhost/balance-2020/assets/frontend/css/mediaquery.css">
+      <link rel="stylesheet" href="includes/css/mediaquery.css">
       <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-      <link href="http://localhost/balance-2020/assets/frontend/css/pretty-checkbox.min.css" rel="stylesheet">
-      <link href="http://localhost/balance-2020/assets/plugins/jcrop/css/jquery.Jcrop.min.css" rel="stylesheet">
-      <link href="http://localhost/balance-2020/assets/plugins/jquery-file-upload/css/jquery.fileupload.css" />
-      <link href="http://localhost/balance-2020/assets/css/image-crop.css">
-
-      <!-- Datatables -->
-      <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-      <link rel="stylesheet" type="text/css" href="http://localhost/balance-2020/assets/plugins/select2/select2.css?ver=v.0.0.1"/> 
-      <style type="text/css">
+      <link href="includes/css/pretty-checkbox.min.css" rel="stylesheet">
       </style>
    </head>
       
@@ -75,7 +65,7 @@
             <div class="container">
                <div class="logo">
                   <a href="#">
-                     <!-- <img src="http://localhost/balance-2020/assets/frontend/images/logo.png" alt="Balance Yoga Logo" /> -->
+                     <!-- <img src="includes/images/logo.png" alt="Balance Yoga Logo" /> -->
                      <img src="https://static.wixstatic.com/media/1737d5_6d768ed88a524ba995f42226007bdfe9~mv2.png/v1/fill/w_95,h_65,al_c,q_85,usm_0.66_1.00_0.01/generic-yoga-logo.webp" alt="generic-yoga-logo.png" style="width: 95px; height: 80px; object-fit: contain; object-position: center center;">
                   </a>
                </div>
@@ -95,7 +85,7 @@
                           <li><a href="contact.php" class="">Contact Me</a></li>
                         </ul>
                        </li>
-                                       </ul>
+                  </ul>
                </nav>
             </div>
          </div>
