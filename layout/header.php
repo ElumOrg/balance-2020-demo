@@ -34,8 +34,8 @@
                   <li class="<?php if ($first_part=="" || $first_part=="index.php") {echo "active"; }?>"><a href="index.php">Home</a></li>
                   <li class="<?php if ($first_part=="classes.php") {echo "active"; }?>"><a href="classes.php">Classes</a></li>
                   <li class="<?php if ($first_part=="video-on-demand.php") {echo "active"; }?>"><a href="video-on-demand.php">Video on Demand</a></li>
-                  <li><a href="#">Private Sessions</a></li>
-                  <li><a href="#">Pricing</a></li>
+                  <li class="<?php if ($first_part=="private-session.php") {echo "active"; }?>"><a href="private-session.php">Private Sessions</a></li>
+                  <li class="<?php if ($first_part=="pricing.php") {echo "active"; }?>"><a href="pricing.php">Pricing</a></li>
                   <li><a href="#">Promotions</a></li>
                   <li><a href="#">More</a></li>
                </ul>
