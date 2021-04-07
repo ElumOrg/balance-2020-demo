@@ -11,6 +11,15 @@
       <link rel="stylesheet" href="includes/css/mediaquery.css">
    </head>
       
+      <?php  
+         $directoryURI = $_SERVER['REQUEST_URI'];
+         $path = parse_url($directoryURI, PHP_URL_PATH);
+         $components = explode('/', $path);
+         $first_part = '';
+         if (isset($components)) {
+            $first_part = $components[2];
+         }
+      ?>
     <body>
        <!-- Navigation Start -->
       <header>
@@ -22,9 +31,9 @@
             </div>
             <nav>
                <ul>
-                  <li class="active"><a href="index.php">Home</a></li>
-                  <li><a href="classes.php">Classes</a></li>
-                  <li><a href="video-on-demand.php">Video on Demand</a></li>
+                  <li class="<?php if ($first_part=="" || $first_part=="index.php") {echo "active"; }?>"><a href="index.php">Home</a></li>
+                  <li class="<?php if ($first_part=="classes.php") {echo "active"; }?>"><a href="classes.php">Classes</a></li>
+                  <li class="<?php if ($first_part=="video-on-demand.php") {echo "active"; }?>"><a href="video-on-demand.php">Video on Demand</a></li>
                   <li><a href="#">Private Sessions</a></li>
                   <li><a href="#">Pricing</a></li>
                   <li><a href="#">Promotions</a></li>
