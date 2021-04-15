@@ -8,8 +8,10 @@
       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
       <link rel="stylesheet" href="includes/css/fonts.css">
+       <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
       <link rel="stylesheet" href="includes/css/style.css">
       <link rel="stylesheet" href="includes/css/mediaquery.css">
+
    </head>
       
       <?php  
@@ -38,7 +40,11 @@
                   <li class="<?php if ($first_part=="private-session.php") {echo "active"; }?>"><a href="private-session.php">Private Sessions</a></li>
                   <li class="<?php if ($first_part=="pricing.php") {echo "active"; }?>"><a href="pricing.php">Pricing</a></li>
                   <li><a href="#">Promotions</a></li>
-                  <li><a href="#">More</a></li>
+                  <li class="sub_menu"><a href="#">More</a>
+                  <ul>
+                                <li><a href="#" class="">About Me</a></li>
+                                <li><a href="#" class="">Contact</a></li>
+                            </ul></li>
                </ul>
             </nav>
          </div>

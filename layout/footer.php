@@ -11,6 +11,8 @@
 <script src="includes/js/jquery.min.js"></script>
 <script src="includes/js/bootstrap.min.js"></script>
 <script src="includes/js/popper.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.min.js"></script>
 <script src="includes/js/custom.js"></script>
+
 </body>
 </html>
