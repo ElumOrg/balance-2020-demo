@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaRegular.eot');
+    src: url('../fonts/NexaRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaRegular.woff2') format('woff2'),
+        url('../fonts/NexaRegular.woff') format('woff'),
+        url('../fonts/NexaRegular.ttf') format('truetype'),
+        url('../fonts/NexaRegular.svg#NexaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaLight.eot');
+  src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NexaLight.woff2') format('woff2'),
+    url('../fonts/NexaLight.woff') format('woff'),
+    url('../fonts/NexaLight.ttf') format('truetype'),
+    url('../fonts/NexaLight.svg#NexaLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaBold.eot');
+  src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NexaBold.woff2') format('woff2'),
+    url('../fonts/NexaBold.woff') format('woff'),
+    url('../fonts/NexaBold.ttf') format('truetype'),
+    url('../fonts/NexaBold.svg#NexaBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../fonts/Muli-SemiBold.eot');
+  src: url('../fonts/Muli-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Muli-SemiBold.woff2') format('woff2'),
+    url('../fonts/Muli-SemiBold.woff') format('woff'),
+    url('../fonts/Muli-SemiBold.ttf') format('truetype'),
+    url('../fonts/Muli-SemiBold.svg#Muli-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../fonts/Muli-Bold.eot');
+  src: url('../fonts/Muli-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Muli-Bold.woff2') format('woff2'),
+    url('../fonts/Muli-Bold.woff') format('woff'),
+    url('../fonts/Muli-Bold.ttf') format('truetype'),
+    url('../fonts/Muli-Bold.svg#Muli-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../fonts/Muli.eot');
+  src: url('../fonts/Muli.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Muli.woff2') format('woff2'),
+    url('../fonts/Muli.woff') format('woff'),
+    url('../fonts/Muli.ttf') format('truetype'),
+    url('../fonts/Muli.svg#Muli') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Flaticon.woff2") format("woff2"),
+    url("../fonts/Flaticon.woff") format("woff"),
+    url("../fonts/Flaticon.ttf") format("truetype"),
+    url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
