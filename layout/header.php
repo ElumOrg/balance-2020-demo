@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="includes/css/bootstrap.min.css">
       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+      <link rel="stylesheet" href="includes/css/fonts.css">
       <link rel="stylesheet" href="includes/css/style.css">
       <link rel="stylesheet" href="includes/css/mediaquery.css">
    </head>

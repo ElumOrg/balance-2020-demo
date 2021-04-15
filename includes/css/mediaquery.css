@@ -117,8 +117,8 @@
   .online_classes_wrapper .h1-title {
     margin-bottom: 12px !important;
   }
-  .calendar_wrapper {
-    padding: 60px 0px 40px;
+  .schedule .calendar_wrapper {
+    padding: 0 !important;
   }
   h3,
   .h1-title {
