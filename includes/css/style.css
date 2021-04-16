@@ -124,6 +124,15 @@ section{
 .classes_banner {
   background-image: url(../images/classes/classes-banner.jpg);
 }
+.vod_banner {
+  background-image: url(../images/vod/vod-banner.jpg);
+}
+.priavte_session_banner {
+  background-image: url(../images/private-session/priavte-session-banner.jpg);
+}
+.pricing_banner {
+  background-image: url(../images/pricing/pricing-banner.jpg);
+}
 /* ==================================
     Banner Images Style End
 ===================================== */
@@ -192,7 +201,7 @@ section{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.60);
 }
 /* ==================================
     Color Style End
@@ -401,6 +410,10 @@ header nav ul li.sub_menu:focus ul, header nav ul li.sub_menu:hover ul {
 .schedule iframe.calendar_wrapper .calendar_box{
   background-color: #fff !important;
 }
+.schedule.private_session iframe {
+  width: 100%;
+  height: 674px;
+}
 /*.schedule.vod iframe {
   width: 1340px;
   height: 1300px;
@@ -409,6 +422,7 @@ header nav ul li.sub_menu:focus ul, header nav ul li.sub_menu:hover ul {
     height: 100% !important;
     min-height: 1340px !important;
     max-height: 100vh !important;
+    width: 100% !important;
 }
 iframe{
   border: 0;
@@ -606,6 +620,9 @@ iframe{
 ===================================== */
 .inner_banner.inner {
   padding: 150px 0;
+}
+.schedule.private-session iframe.modal-open .modal{
+  background-color: red !important;
 }
 /* ==================================
     Inner pages style end
