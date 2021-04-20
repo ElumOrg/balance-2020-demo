@@ -35,7 +35,7 @@
             <div class="d-lg-none d-flex align-items-end flex-column w-100">
                
                <div class="toggle" onclick="myFunction(this)">
-                  <span>Menu</span>
+                  <!-- <span>Menu</span> -->
                   <div class="bar1"></div>
                   <div class="bar2"></div>
                   <div class="bar3"></div>
