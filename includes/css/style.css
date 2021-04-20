@@ -107,6 +107,10 @@ button {
 section{
   padding: 100px 0;
 }
+.container {
+  max-width: 1170px;
+  width: 100%;
+}
 /* =========================================
     Basic Style CSS End
 ============================================ */
@@ -132,6 +136,9 @@ section{
 }
 .pricing_banner {
   background-image: url(../images/pricing/pricing-banner.jpg);
+}
+.promotions_banner {
+  background-image: url(../images/promotions/promotions-banner.jpg);
 }
 /* ==================================
     Banner Images Style End
@@ -312,12 +319,17 @@ header nav ul li.sub_menu:focus ul, header nav ul li.sub_menu:hover ul {
 /* ==================================
     Homepage Style End
 ===================================== */
-.home_banner {
+/*.home_banner {
   padding: 225px 0;
   position: relative;
   z-index: 1;
+}*/
+.home_banner {
+  padding: 115px 0;
+  position: relative;
+  z-index: 1;
 }
-.home_banner::before {
+/*.home_banner::before {
   content: "";
   position: absolute;
   top: 0;
@@ -326,8 +338,9 @@ header nav ul li.sub_menu:focus ul, header nav ul li.sub_menu:hover ul {
   height: 100%;
   background-color: rgba(255,255,255,0.4);
   z-index: -1;
-}
+}*/
 .home_banner .text_wrap {
+    max-width: 700px;
   /* position: absolute;
   top: 0;
   left: 0;
@@ -343,10 +356,27 @@ header nav ul li.sub_menu:focus ul, header nav ul li.sub_menu:hover ul {
 .home_banner .text_wrap h1 {
   font-weight: 600;
   color: #c5416e;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
-.home_banner .text_wrap p {
+/*.home_banner .text_wrap h1::before {
+  width: 51px;
+  height: 8px;
+  left: -81px;
+  top: 31px;
+  content: "";
+  position: absolute;
+  background-color: #c5416e;
+}*/
+/*.home_banner .text_wrap p {
   font-size: 28px;
+}*/
+.home_banner .text_wrap p {
+  font-size: 20px;
+
+  
+}
+.home_banner .text_wrap p br{
+  margin-bottom: 15px;
 }
 .home_banner .text_wrap p:last-child{
   margin-bottom: 0;
@@ -360,7 +390,13 @@ header nav ul li.sub_menu:focus ul, header nav ul li.sub_menu:hover ul {
   color: #ffffff;
   margin: 80px;
 }
-
+.img_wrap, .img_wrap img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    max-height: 100%;
+}
 .form-group {
   margin-bottom: 20px;
 }
@@ -626,6 +662,65 @@ iframe{
 }
 /* ==================================
     Inner pages style end
+===================================== */
+/* ==================================
+    Mobile toggle style end
+===================================== */
+
+.toggle {
+    cursor: pointer;
+    position: relative;
+    z-index: 9999;
+    display: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #652c75;
+    margin: 6px 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 6px);
+    -ms-transform: rotate(-45deg) translate(-7px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
+    background-color: #c5416e;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-7px, -6px);
+    -ms-transform: rotate(45deg) translate(-7px, -6px);
+    transform: rotate(45deg) translate(-7px, -6px);
+    background-color: #c5416e;
+}
+
+.toggle span {
+  font-size: 15px;
+  color: #652c75;
+  text-align: center;
+  position: absolute;
+  top: 47%;
+  left: -50px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.toggle.change span{
+  color: #c5416e;
+}
+
+/* ==================================
+    Mobile toggle style end
 ===================================== */
 
 /* ==================================

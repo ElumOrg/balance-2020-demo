@@ -2,10 +2,10 @@
   include('layout/header.php');
 ?>
 
-<section class="overlay inner_banner pricing_banner banner inner  ">
+<section class="overlay inner_banner promotions_banner banner inner  ">
 	<div class="container">
 		<div class="content text-white">
-			<h1>Pricing</h1>	
+			<h1>Promotions</h1>	
         </div>
 	</div>
 </section>
