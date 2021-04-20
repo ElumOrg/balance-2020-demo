@@ -49,7 +49,7 @@
                   <li class="<?php if ($first_part=="video-on-demand.php") {echo "active"; }?>"><a href="video-on-demand.php">Video on Demand</a></li>
                   <li class="<?php if ($first_part=="private-session.php") {echo "active"; }?>"><a href="private-session.php">Private Sessions</a></li>
                   <li class="<?php if ($first_part=="pricing.php") {echo "active"; }?>"><a href="pricing.php">Pricing</a></li>
-                  <li class="<?php if ($first_part=="promotions.php") {echo "active"; }?>"><a href="promotions.php">Promotions</a></li>
+                  <li class="<?php if ($first_part=="promotion.php") {echo "active"; }?>"><a href="promotion.php">Promotions</a></li>
                  <!--  <li class="sub_menu"><a href="#">More</a>
                   <ul>
                                 <li><a href="#" class="">About Me</a></li>
