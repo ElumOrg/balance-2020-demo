@@ -15,7 +15,7 @@
       <!-- <h2 class="text-center">Pricing</h2> -->
 
       <div class="row justify-content-center">
-      		<iframe src="http://dev.eluminousdev.com/balance-2020/promotional-offer/teacher-gautami-patil/eyJ0ZWFjaGVyX2lkIjoxNzR9" width="100%" height="573"></iframe>
+      		<iframe src="http://dev.eluminousdev.com/balance-2020/promotional-offer/teacher-gautami-patil/eyJ0ZWFjaGVyX2lkIjoxNzR9" width="100%" height="614"></iframe>
   	 </div>
    </div>
 </section>
